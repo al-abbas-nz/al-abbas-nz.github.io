@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Intro to Javascript</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/f1b0f8e1f2.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="../images/favicon/apple-touch-icon.png"
+/>
+
+
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="../images/favicon/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="../images/favicon/favicon-16x16.png"
+/>
+<link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+
+</head>
+
+<body>
+
+  <section class="bg-colour" id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="../index.html">Al Abbas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href=../index.html>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="container-fluid">
+
+        <h1>Intro to Javascript:</h1>
+        <h2>The programming language used to bring HTML and CSS to life.</h2>
+        <h3>19/09/2020</h3>
+        
+        <p>
+        Last week for EDA foundations we spent time learning HTML and CSS. 
+        <br>
+        <em>(Hypertext Markup Language and Cascading Style Sheets)</em>
+        <br/>
+        <br/>
+        I began to develop my understanding of these languages and what we can achieve with them. <br/>
+        This blog is made with HTML and CSS (and with the help of a CSS framework 'Bootstrap'). HTML is made up of various tags that follow a structure. We can enclose information like text and images in these tags, and our browser will interpret these tags and display our page.
+        <br/>
+        <br/>
+        HTML alone looks incredibly plain, basically like a simple Word document. We can style our HTML with CSS. Our CSS document will target "IDs" and "Classes" that we defined in our HTML. Once we have targeted these elements, we can begin to modify them and apply styling. We can style anything from background colour, font style, size and colour, we can position elements, and modify their <a href="sprint2-technical.html">margin, border, and padding</a>. This just scratches the surface of possibility!
+        <br>
+        <br>
+        I began to imagine these concepts and how they might relate to something like a house. HTML could be the structure and foundation of the house, and CSS could style the wallpaper, rooms, and positioning of furniture around the house. Now you go into a room and reach for the light switch. Let's introduce <em>Javascript!</em>
+        </p>  
+        <hr/>
+        <h2>Javascript</h2>
+        <p>
+        Javascript (JS) is a programming language that is used in web development. We can define variables, store data in the form of objects and arrays, create and execute functions, and ultimately interact with our HTML and CSS.
+        </p>
+        <h4>Control Flow</h4>
+        <p>  
+        Control flow is a foundational principle in programming including JS. It is the order that the code we write is executed. Our code can include conditional statements, loops, and functions. When the control flow reaches a conditional statement, an example in JS would be an 'if/else conditional statement', the flow will run through it, and it will function in accordance to how we created it.
+        <br>
+        If we go back to the house example, a simple way I can describe an if/else statement could be in the following way:
+        <br>
+          <div class = "jstech">
+            <ol>
+            <li>Enter a room,</li>
+            <li>If you need light, turn on the light.</li>
+            <li>Otherwise (else), open the curtain.</li>
+            </ol>
+            <img src="../images/JSIMG/JSCFEX.png" alt="Control flow example">
+          </div>
+        </p>
+        <hr/>
+        <h4>Loops</h4>
+        <p>
+          Loops are used to run code until the conditions we specify are met. A 'for loop' first initializes the loop, it then checks the condition it needs to meet so it can stop looping, and then we define how we update the loop after each iteration. Let's say we need 4 walls to build our home. We could run a for loop that has if/else statements enclosed that updates and reports back each time a wall was built, until we have 4 walls.
+          <div class = "jstech">
+            <ol>
+            <li>We start with 0 walls. We need 4.</li>
+            <li>Announce the wall building stages until we have 4 walls.</li>
+            </ol>
+            <img src="../images/JSIMG/JSFL.png" alt="For Loop example">
+          </div>
+         
+        </p>
+        <hr/>
+        <h4>Functions</h4>
+        <p>
+        We can enclose the for loop from the previous example in a function. Functions are useful in javascript, they are blocks of code that perform a specified task. We can "call" them to perform their task when we want them to run. We can create paramaters for the function, and then call it back with arguments. When the previous example is created into a function, it will perform the task when the control flow reaches the stage where the function is called. The control flow will jump back to where the function was defined and execute from there. We can also call manually in the console. In the example below, the for loop only executes when the function is called on line 18.
+          <div class = "jstech">
+            <img src="../images/JSIMG/JSFEX.png" alt="Function example">
+          </div>
+         
+        </p>
+        <hr/>
+        <h4>Arrays and Objects</h4>
+        <p>
+          An array enables us to store a collection of data entries in a single variable. We can add and remove from an array [ ], as well as read the contents. The first element of an array is indexed at 0. The image below demonstrates how we can access the data in an array.
+          <br>
+          <br>
+          Objects in JS can be thought of similarly to how we describe objects in real life. We define a variable and make it an object { } that contains properties and their description. We refer to the properties as "keys", and the description as "values" (key value pairs). These are essentially variables in an object. Similar to arrays, we can access the data, as well as manipulate it.
+          <div class = "jstech">
+            <img src="../images/JSIMG/JSAOEX.png" alt="Arrays and Objects example">
+          </div>
+          <hr/>
+        <h4>The DOM</h4>
+        <p>
+          The Document Object Model (DOM) is what ties our HTML and CSS with Javascript. It is an interface for our web pages, known as an application programming interface (API). It is what enables our browser to interpret and render our code. We can access the DOM and manipulate it with JS, allowing us to change our HTML and CSS on demand. That means we can modify our content, structure, and styling of our web page.
+          <div class = "jstech">
+            <img src="https://www.kirupa.com/html5/images/DOM_js_72.png" alt="DOM example from Kirupa">
+            <p>Image from <a href="https://www.kirupa.com/html5/javascript_the_browser_and_the_dom.htm">Kirupa</a></p>
+          </div>
+         
+        </p>
+        
+      </div>
+      
+  </section>
+
+   <!-- blog -->
+
+   <section class="bg-white" id="blog">
+
+    <h2 class="section-heading">More blog posts:</h2>
+    
+<!-- cards -->
+  <div class="blog-cards">
+    <div class="row">
+      <div class="blog-column col-lg-6 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Technical</h3>
+          </div>
+          <div class="card-body">
+            <a href="sprint1-technical.html">
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark">
+                The Story of Te Houtaewa (Sprint 1)
+              </button>
+            </a>
+            <hr>
+            <a href="sprint2-technical.html">
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark">
+              CSS Box Model (Sprint 2)
+              </button>
+            </a>
+            <hr>
+            <a href="sprint3-technical.html">
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark">
+                Intro to Javascript (Sprint 3)
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-column col-lg-6 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Core</h3>
+          </div>
+          <div class="card-body">
+            <a href="sprint1-cultural.html">
+            <button type="button" class="btn btn-lg btn-block btn-dark">Identity, Values and Strengths (Sprint 1)</button>
+            </a>
+            <hr>
+            <a href="sprint2-cultural.html">
+              <button type="button" class="btn btn-lg btn-block btn-dark">Learning Plan (Sprint 2)</button>
+            </a>
+            <hr>
+            <a href="sprint3-cultural.html">
+              <button type="button" class="btn btn-lg btn-block btn-dark">Emotional Intelligence (Sprint 3)</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="bg-colour" id="footer">
+    <div class="container-fluid">
+      <!-- <i link href="#" class="social-icon fab fa-twitter"> </i> -->
+      <i link href="#" class="social-icon fas fa-envelope"> </i>
+      <i link href="#" class="social-icon fab fa-facebook-f"> </i>
+      <i link href="#" class="social-icon fab fa-instagram"> </i>
+
+    </div>
+
+    <p>© Al Abbas 2020</p>
+
+  </footer>
+
+
+</body>
+
+</html>

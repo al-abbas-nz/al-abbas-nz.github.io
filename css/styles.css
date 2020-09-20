@@ -52,6 +52,13 @@ p {
   text-align: left;
 }
 
+ol {
+  color: white;
+  text-align: center;
+  list-style-position: inside;
+}
+
+
 
 
 /* navigation bar */
@@ -92,14 +99,19 @@ margin: 0 auto;
 .imgbox-right {
   margin: 0 auto;
   display: flex;
-  align-items: center
+  align-items: center;
+   
+}
+
+.jstech {
+  text-align: center;
    
 }
 
 .imgbox {
- display: flex;
- justify-content: center;
-text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 
 }
 
